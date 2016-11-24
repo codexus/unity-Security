@@ -1,1 +1,1 @@
-# unity-shader-sandbox
+# Protects from memory manipulations
