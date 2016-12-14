@@ -70,6 +70,16 @@ namespace Codexus.Security
         {
             return f1.value != f2.value;
         }
+        
+        public static implicit operator int(SecuredInt securedInt)
+        {
+          return securedInt.value;
+        }
+    
+        public static implicit operator SecuredInt(int value)
+        {
+            return new SecuredInt(value);
+        }
 
         #endregion
 
