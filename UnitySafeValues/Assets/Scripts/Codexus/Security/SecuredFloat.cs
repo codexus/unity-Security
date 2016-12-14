@@ -70,9 +70,8 @@ namespace Codexus.Security
         {
             return f1.value != f2.value;
         }
-        
-        
-        // to easly switch between float and secured floats
+
+        // to easily switch between float and secured floats
         public static implicit operator float(SecuredFloat secureFloat)
         {
             return secureFloat.value;
